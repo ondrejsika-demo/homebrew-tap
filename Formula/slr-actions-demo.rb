@@ -5,20 +5,20 @@
 class SlrActionsDemo < Formula
   desc "slr-actions-demo"
   homepage "https://github.com/ondrejsika-demo/slr-actions-demo"
-  version "0.1.0"
+  version "0.2.0"
 
   on_macos do
     on_intel do
-      url "https://github.com/ondrejsika-demo/slr-actions-demo/releases/download/v0.1.0/slr-actions-demo_v0.1.0_darwin_amd64.tar.gz"
-      sha256 "ca77bb6edf2f3b4e834dcfd11c2ca4078f44ff58ba7de2a28feeea9ef960954c"
+      url "https://github.com/ondrejsika-demo/slr-actions-demo/releases/download/v0.2.0/slr-actions-demo_v0.2.0_darwin_amd64.tar.gz"
+      sha256 "17e085d1b33336f98ff702c4098f035d0a07151dd9565ea047e5f932c15245b2"
 
       def install
         bin.install "slr-actions-demo"
       end
     end
     on_arm do
-      url "https://github.com/ondrejsika-demo/slr-actions-demo/releases/download/v0.1.0/slr-actions-demo_v0.1.0_darwin_arm64.tar.gz"
-      sha256 "cc2c71c3e8903fce5b80412aec4217e945d0dda26f24bdae806af31bb0408ab8"
+      url "https://github.com/ondrejsika-demo/slr-actions-demo/releases/download/v0.2.0/slr-actions-demo_v0.2.0_darwin_arm64.tar.gz"
+      sha256 "a061826ce45ca973e18f75cce533f94861586fba71601fb6a4efcd603ea9e90f"
 
       def install
         bin.install "slr-actions-demo"
@@ -29,8 +29,8 @@ class SlrActionsDemo < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/ondrejsika-demo/slr-actions-demo/releases/download/v0.1.0/slr-actions-demo_v0.1.0_linux_amd64.tar.gz"
-        sha256 "0e8d931e1c16fb8e843308df3b216b90c65ac6269598257df41a870551b50605"
+        url "https://github.com/ondrejsika-demo/slr-actions-demo/releases/download/v0.2.0/slr-actions-demo_v0.2.0_linux_amd64.tar.gz"
+        sha256 "89f78b6f0433c309777a59caa0894cd0a7f81c2df6251bcb5a8cb0a133f3abd6"
 
         def install
           bin.install "slr-actions-demo"
@@ -39,8 +39,8 @@ class SlrActionsDemo < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/ondrejsika-demo/slr-actions-demo/releases/download/v0.1.0/slr-actions-demo_v0.1.0_linux_arm64.tar.gz"
-        sha256 "70170095740c8c6dd9ec26f9f30e464f462df2d8e1a6249e7adb678bf3d85c3f"
+        url "https://github.com/ondrejsika-demo/slr-actions-demo/releases/download/v0.2.0/slr-actions-demo_v0.2.0_linux_arm64.tar.gz"
+        sha256 "6701d215d1da98ce243488e4534d834c13b825f5025cce404e5302365648e224"
 
         def install
           bin.install "slr-actions-demo"
